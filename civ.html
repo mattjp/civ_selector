@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="civ.js"></script>
+  </head>
+
+  <body>
+    <h1>Civilizations</h1>
+
+    <!-- Select Civilizations Button -->
+    <input
+      class="select-btn"
+      type="button"
+      value="select"
+      onclick="selectCiv();"
+    />
+
+    <h3 id="result-civ-1"></h3>
+    <h3 id="result-civ-2"></h3>
+    <h3 id="result-civ-3"></h3>
+
+    <input
+      class="civ"
+      type="checkbox"
+      name="America-Roosevelt"
+      value="America - Roosevelt"
+      checked="checked"
+    />
+    America - Teddy Roosevelt <br />
+
+    <input
+      class="civ"
+      type="checkbox"
+      name="Arabia-Saladin"
+      value="Arabia - Saladin"
+      checked="checked"
+    />
+    Arabia - Saladin <br />
+
+    <input
+      class="civ"
+      type="checkbox"
+      name="Aztec-Montezuma"
+      value="Aztec - Montezuma"
+      checked="checked"
+    />
+    Aztec - Montezuma <br />
+
+    <input
+      class="civ"
+      type="checkbox"
+      name="Brazil-Pedro-II"
+      value="Brazil - Pedro II"
+      checked="checked"
+    />
+    Brazil - Pedro II <br />
+
+    <input
+      class="civ"
+      type="checkbox"
+      name="Canada-Laurier"
+      value="Canada - Laurier"
+      checked="checked"
+    />
+    **Canada - Laurier <br />
+
+    <input
+      class="civ"
+      type="checkbox"
+      name="China-Qin-Shi-Huang"
+      value="China - Qin Shi Huang"
+      checked="checked"
+    />
+    China - Qin Shi Huang <br />
+
+    <input
+      class="civ"
+      type="checkbox"
+      name="Cree-Poundmaker"
+      value="Cree - Poundmaker"
+      checked="checked"
+    />
+    *Cree - Poundmaker <br />
+
+    <input
+      class="civ"
+      type="checkbox"
+      name="Egypt-Cleopatra"
+      value="Egypt - Cleopatra"
+      checked="checked"
+    />
+    Egypt - Cleopatra <br />
+
+    <input
+      class="civ"
+      type="checkbox"
+      name="England-Eleanor"
+      value="England - Eleanor"
+      checked="checked"
+    />
+    **England - Eleanor <br />
+
+    <input
+      class="civ"
+      type="checkbox"
+      name="England-Victoria"
+      value="England - Victoria"
+      checked="checked"
+    />
+    England - Victoria <br />
+
+    <input
+      class="civ"
+      type="checkbox"
+      name="France-Catherine-de-Medici"
+      value="France - Catherine de Medici"
+      checked="checked"
+    />
+    France - Catherine de Medici <br />
+
+    <input
+      class="civ"
+      type="checkbox"
+      name="France-Eleanor"
+      value="France - Eleanor"
+      checked="checked"
+    />
+    **France - Eleanor <br />
+
+    <input
+      class="civ"
+      type="checkbox"
+      name="Georgia-Tamar"
+      value="Georgia - Tamar"
+      checked="checked"
+    />
+    *Georgia - Tamar <br />
+
+    <input
+      class="civ"
+      type="checkbox"
+      name="Germany-Frederick Barbarossa"
+      value="Germany - Frederick Barbarossa"
+      checked="checked"
+    />
+    Germany - Frederick Barbarossa <br />
+
+    <input
+      class="civ"
+      type="checkbox"
+      name="Greece-Gorgo"
+      value="Greece - Gorgo"
+      checked="checked"
+    />
+    Greece - Gorgo <br />
+
+    <input
+      class="civ"
+      type="checkbox"
+      name="Greece-Pericles"
+      value="Greece - Pericles"
+      checked="checked"
+    />
+    Greece - Pericles <br />
+
+    <input
+      class="civ"
+      type="checkbox"
+      name="Hungary-Matthias-Corvinus"
+      value="Hungary - Matthias Corvinus"
+      checked="checked"
+    />
+    **Hungary - Matthias Corvinus <br />
+
+    <input
+      class="civ"
+      type="checkbox"
+      name="Inca-Pachacuti"
+      value="Inca - Pachacuti"
+      checked="checked"
+    />
+    **Inca - Pachacuti<br />
+
+    <input
+      class="civ"
+      type="checkbox"
+      name="India-Chandragupta"
+      value="India - Chandragupta"
+      checked="checked"
+    />
+    *India - Chandragupta <br />
+
+    <input
+      class="civ"
+      type="checkbox"
+      name="India-Ghandi"
+      value="India - Ghandi"
+      checked="checked"
+    />
+    India - Ghandi <br />
+
+    <input
+      class="civ"
+      type="checkbox"
+      name="Japan-Hojo Tokimune"
+      value="Japan - Hojo Tokimune"
+      checked="checked"
+    />
+    Japan - Hojo Tokimune <br />
+
+    <input
+      class="civ"
+      type="checkbox"
+      name="Kongo-Mvemba-a-Nzinga"
+      value="Kongo - Mvemba a Nzinga"
+      checked="checked"
+    />
+    Kongo - Mvemba a Nzinga <br />
+
+    <input
+      class="civ"
+      type="checkbox"
+      name="Korea-Seondeok"
+      value="Korea - Seondeok"
+      checked="checked"
+    />
+    *Korea - Seondeok <br />
+
+    <input
+      class="civ"
+      type="checkbox"
+      name="Mali-Mansa-Musa"
+      value="Mali - Mansa Musa"
+      checked="checked"
+    />
+    **Mali - Mansa Musa <br />
+
+    <input
+      class="civ"
+      type="checkbox"
+      name="Maori-Kupe"
+      value="Maori - Kupe"
+      checked="checked"
+    />
+    **Maori - Kupe <br />
+
+    <input
+      class="civ"
+      type="checkbox"
+      name="Mapuche-Lautaro"
+      value="Mapuche - Lautaro"
+      checked="checked"
+    />
+    *Mapuche - Lautaro <br />
+
+    <input
+      class="civ"
+      type="checkbox"
+      name="Mongolia-Ghengis-Khan"
+      value="Mongolia - Ghengis Khan"
+      checked="checked"
+    />
+    *Mongolia - Ghengis Khan <br />
+
+    <input
+      class="civ"
+      type="checkbox"
+      name="Netherlands-Wilhelmina"
+      value="Netherlands - Wilhelmina"
+      checked="checked"
+    />
+    *Netherlands - Wilhelmina <br />
+
+    <input
+      class="civ"
+      type="checkbox"
+      name="Norway-Harald-Hardrada"
+      value="Norway - Harald Hardrada"
+      checked="checked"
+    />
+    Norway - Harald Hardrada<br />
+
+    <input
+      class="civ"
+      type="checkbox"
+      name="Ottomans-Suleimon"
+      value="Ottomans - Suleimon"
+      checked="checked"
+    />
+    **Ottomans - Suleimon <br />
+
+    <input
+      class="civ"
+      type="checkbox"
+      name="Phoenicia-Dido"
+      value="Phoenicia - Dido"
+      checked="checked"
+    />
+    **Phoenicia - Dido <br />
+
+    <input
+      class="civ"
+      type="checkbox"
+      name="Poland-Jadwiga"
+      value="Poland - Jadwiga"
+      checked="checked"
+    />
+    Poland - Jadwiga <br />
+
+    <input
+      class="civ"
+      type="checkbox"
+      name="Rome-Trajan"
+      value="Rome - Trajan"
+      checked="checked"
+    />
+    Rome - Trajan <br />
+
+    <input
+      class="civ"
+      type="checkbox"
+      name="Russia-Peter"
+      value="Russia - Peter"
+      checked="checked"
+    />
+    Russia - Peter <br />
+
+    <input
+      class="civ"
+      type="checkbox"
+      name="Scotland-Robert-the-Bruce"
+      value="Scotland - Robert the Bruce"
+      checked="checked"
+    />
+    *Scotland - Robert the Bruce <br />
+
+    <input
+      class="civ"
+      type="checkbox"
+      name="Scythia-Tomyris"
+      value="Scythia - Tomyris"
+      checked="checked"
+    />
+    Scythia - Tomyris <br />
+
+    <input
+      class="civ"
+      type="checkbox"
+      name="Spain-Phillip-II"
+      value="Spain - Phillip II"
+      checked="checked"
+    />
+    Spain - Phillip II <br />
+
+    <input
+      class="civ"
+      type="checkbox"
+      name="Sumeria-Gilgamesh"
+      value="Sumeria - Gilgamesh"
+      checked="checked"
+    />
+    Sumeria - Gilgamesh <br />
+
+    <input
+      class="civ"
+      type="checkbox"
+      name="Sweden-Kristina"
+      value="Sweden - Kristina"
+      checked="checked"
+    />
+    **Sweden - Kristina <br />
+
+    <input
+      class="civ"
+      type="checkbox"
+      name="Zulu-Shaka"
+      value="Zulu - Shaka"
+      checked="checked"
+    />
+    *Zulu - Shaka <br />
+  </body>
+</html>
